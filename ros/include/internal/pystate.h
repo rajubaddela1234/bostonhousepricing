@@ -105,6 +105,8 @@ typedef struct pyruntimestate {
     struct _gilstate_runtime_state gilstate;
 
     // XXX Consolidate globals found via the check-c-globals script.
+
+    int int_max_str_digits;
 } _PyRuntimeState;
 
 #define _PyRuntimeState_INIT {.initialized = 0, .core_initialized = 0}
@@ -117,6 +119,13 @@ PyAPI_FUNC(void) _PyRuntimeState_Fini(_PyRuntimeState *);
 /* Initialize _PyRuntimeState.
    Return NULL on success, or return an error message on failure. */
 PyAPI_FUNC(_PyInitError) _PyRuntime_Initialize(void);
+
+PyAPI_FUNC(void) _PyRuntime_Finalize(void);
+
+/* Excluded from public struct _PyCoreConfig for backporting reasons. */
+/* Modules/main.c config_init_int_max_str_digits() configures it. */
+/* Storage declared in pylifecycle.c */
+extern int _Py_global_config_int_max_str_digits;
 
 #define _Py_CURRENTLY_FINALIZING(tstate) \
     (_PyRuntime.finalizing == tstate)

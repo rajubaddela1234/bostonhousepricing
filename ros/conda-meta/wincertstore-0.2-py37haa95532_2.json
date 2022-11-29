@@ -51,7 +51,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "wincertstore",
   "sha256": "ba28e61eab94884bb6aa8dbcf92375c7445ba0d0ba3d14a08a0563cda6432b51",
   "size": 15625,
   "subdir": "win-64",

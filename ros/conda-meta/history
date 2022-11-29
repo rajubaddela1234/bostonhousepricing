@@ -10,3 +10,40 @@
 +defaults/win-64::vs2015_runtime-14.27.29016-h5e58377_2
 +defaults/win-64::wincertstore-0.2-py37haa95532_2
 # update specs: ['python==3.7']
+==> 2022-11-29 18:46:44 <==
+# cmd: C:\Users\HP\anaconda3\Scripts\conda-script.py install -p c:\Users\HP\Downloads\Boston\Houseprice\bostonhousepricing\ros ipykernel --update-deps --force-reinstall
+# conda version: 4.12.0
+-defaults/win-64::python-3.7.0-hea74fb7_0
++defaults/noarch::backcall-0.2.0-pyhd3eb1b0_0
++defaults/noarch::decorator-5.1.1-pyhd3eb1b0_0
++defaults/noarch::packaging-21.3-pyhd3eb1b0_0
++defaults/noarch::parso-0.8.3-pyhd3eb1b0_0
++defaults/noarch::pickleshare-0.7.5-pyhd3eb1b0_1003
++defaults/noarch::prompt-toolkit-3.0.20-pyhd3eb1b0_0
++defaults/noarch::pygments-2.11.2-pyhd3eb1b0_0
++defaults/noarch::python-dateutil-2.8.2-pyhd3eb1b0_0
++defaults/noarch::six-1.16.0-pyhd3eb1b0_1
++defaults/noarch::traitlets-5.1.1-pyhd3eb1b0_0
++defaults/noarch::wcwidth-0.2.5-pyhd3eb1b0_0
++defaults/win-64::ca-certificates-2022.10.11-haa95532_0
++defaults/win-64::colorama-0.4.5-py37haa95532_0
++defaults/win-64::debugpy-1.5.1-py37hd77b12b_0
++defaults/win-64::entrypoints-0.4-py37haa95532_0
++defaults/win-64::ipykernel-6.15.2-py37haa95532_0
++defaults/win-64::ipython-7.31.1-py37haa95532_1
++defaults/win-64::jedi-0.18.1-py37haa95532_1
++defaults/win-64::jupyter_client-7.4.7-py37haa95532_0
++defaults/win-64::jupyter_core-4.11.2-py37haa95532_0
++defaults/win-64::libsodium-1.0.18-h62dcd97_0
++defaults/win-64::matplotlib-inline-0.1.6-py37haa95532_0
++defaults/win-64::nest-asyncio-1.5.5-py37haa95532_0
++defaults/win-64::openssl-1.1.1s-h2bbff1b_0
++defaults/win-64::psutil-5.9.0-py37h2bbff1b_0
++defaults/win-64::pyparsing-3.0.9-py37haa95532_0
++defaults/win-64::python-3.7.15-h6244533_1
++defaults/win-64::pywin32-302-py37h2bbff1b_2
++defaults/win-64::pyzmq-23.2.0-py37hd77b12b_0
++defaults/win-64::sqlite-3.40.0-h2bbff1b_0
++defaults/win-64::tornado-6.2-py37h2bbff1b_0
++defaults/win-64::zeromq-4.3.4-hd77b12b_0
+# update specs: ['pywin32', 'pygments', 'psutil', 'six', 'nest-asyncio', 'entrypoints', 'pip', 'prompt-toolkit', 'pyzmq', 'decorator', 'certifi', 'zeromq', 'matplotlib-inline', 'vc', 'debugpy', 'vs2015_runtime', 'python=3.7', 'wincertstore', 'setuptools', 'jupyter_client', 'jedi', 'python-dateutil', 'parso', 'tornado', 'libsodium', 'wheel', 'backcall', 'ipython', 'pickleshare', 'pyparsing', 'colorama', 'jupyter_core', 'traitlets', 'packaging', 'wcwidth', 'ipykernel']
